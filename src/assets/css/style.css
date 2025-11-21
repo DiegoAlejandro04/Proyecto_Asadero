@@ -1,0 +1,162 @@
+
+/* General */
+body{
+    margin: 0;
+    font-family: 'Fredoka One',cursive;
+    background: #f3f3f3;
+}
+
+.contenedor{
+    display: flex;
+    height: 100vh;
+    max-width: 120rem;
+    width: 95% ;
+    margin: 0 auto;
+}
+
+.logo-section{
+    width: 42%;
+    background: #ffe4b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-section img{
+    max-width: 35%;
+}
+.logo-section p {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+}
+.form-section{
+    width: 69%;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-section h1{
+    font-size: 50px;
+    text-align: center;
+}
+.inicio_sesion{
+    width: 80%;
+    max-width: 350px;
+}
+.inicio_sesion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.input {
+    margin-bottom: 25px;
+}
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.password_olvidada, .registro {
+    text-align: center;
+    margin: 20px 0;
+}
+.password_olvidada a, .registro a {
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-login:hover { background: darkorange; }
+
+/* HEADER */
+.header {
+  background: orange;
+  padding: 10px 20px;
+}
+.contenEdor-hed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.barrnav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.barrnav input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+}
+.btn-bus {
+  background: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logohead img {
+  height: 80px;
+}
+.inconos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.inconos img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.inconos img:hover {
+  transform: scale(1.2);
+}
+
+/* Menu grid */
+.menu {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+.menu-item {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-align: center;
+}
+.menu-item img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.btn-add {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: orange;
+  color: white;
+}
